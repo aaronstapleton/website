@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import KeeperImg from '../public/assets/projectImgs/keeper.png';
+import KeeperImg from '../public/assets/projectImgs/Keeper.gif';
 import JournalImg from "../public/assets/projectImgs/daily-journal.png";
 import ExpressTodo from "../public/assets/projectImgs/express-todo.png";
 import ReactTodo from "../public/assets/projectImgs/react-todo.png";
@@ -9,6 +9,7 @@ import Newsletter from "../public/assets/projectImgs/newsletter.png";
 import Simon from "../public/assets/projectImgs/simon.png"
 import ProjectItemND from './ProjectItemND';
 import ProjectItemD from './ProjectItemD';
+import Weather from "../public/assets/projectImgs/Weather.gif"
 
 const Projects = () => {
   return (
@@ -38,6 +39,12 @@ const Projects = () => {
               githubUrl="https://github.com/aaronstapleton/Express-based-TodoList.git"
               deployedUrl="https://cryptic-fjord-97328.herokuapp.com"
               tech="Express JS, Node JS, MongoDB, EJS"
+          />
+                      <ProjectItemND 
+              title="Weather App"
+              backgroundImg={Weather}
+              projectUrl="https://github.com/aaronstapleton/weather-app.git"
+              tech="Next JS, React JS, OpenWeatherMap API, TailwindCSS"
           />
                       <ProjectItemD 
               title="React-Based TodoList"

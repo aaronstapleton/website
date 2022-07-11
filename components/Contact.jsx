@@ -54,7 +54,7 @@ const Contact = () => {
                 <p className='uppercase pt-5'>Connect With Me</p>
                 <div className='flex items-center justify-center py-4'>
                   <a
-                    href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BQr%2BTMopeSGCWfeY3K6hW5A%3D%3D'
+                    href='https://www.linkedin.com/in/aaron-stapleton-5654b91a1'
                     target='_blank'
                     rel='noreferrer'
                   >

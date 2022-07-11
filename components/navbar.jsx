@@ -173,7 +173,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bef36mVbPSx%2BWmg6oIcywSQ%3D%3D'
+                  href='https://www.linkedin.com/in/aaron-stapleton-5654b91a1'
                   target='_blank'
                   rel='noreferrer'
                 >
